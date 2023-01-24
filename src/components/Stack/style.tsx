@@ -17,6 +17,7 @@ export const StackCard = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   position: "relative",
+  borderColor: "$green",
 
   [`& ${Text}`]: {
     opacity: 0,

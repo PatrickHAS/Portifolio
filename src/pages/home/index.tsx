@@ -22,8 +22,19 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
+  AboutMe,
+  AboutMeText,
 } from "./style";
 
+let age = 35;
+
+const date = new Date();
+const month = date.getMonth();
+const day = date.getDate();
+
+if (month === 5 && day === 30) {
+  age += 1;
+}
 
 export const Home = (): JSX.Element => {
   return (
@@ -40,11 +51,14 @@ export const Home = (): JSX.Element => {
               desenvolvendo habilidades
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
-                Projetos
+              <Button as="a" href="#projetos" type="btLink">
+                Meus Projetos
               </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+              <Button as="a" href="#tecnologias" type="btLink">
                 Tecnologias
+              </Button>
+              <Button as="a" href="#sobre_min" type="btLink">
+                Sobre min
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
@@ -75,7 +89,7 @@ export const Home = (): JSX.Element => {
                 algumas ideias por lá
               </Text>
               <Button
-                type="primary"
+                type="quarternary"
                 target="_blank"
                 as="a"
                 href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
@@ -97,6 +111,50 @@ export const Home = (): JSX.Element => {
               <Project />
             </ProjectsAreaContent>
           </ProjectAreaWrapperColumns>
+          <AboutMe id="sobre_min">
+            <Text type="heading4">Sobre min: </Text>
+          </AboutMe>
+          <AboutMeText>
+            <Text>
+              Olá! meu nome é{" "}
+              <Text as="span" color="brand1" type="heading5">
+                Patrick Santos
+              </Text>{" "}
+              tenho {age} anos, bom... minha paixão pela tecnologia começou no
+              final de 2021, quando um amigo me indicou um curso de RPA(robotic
+              process automation), aqui foi meu primeiro contato com a
+              tecnologia.
+              <br />
+              <br />
+              Eu trabalhava com vendas e devido a pandemia que se iniciou em
+              2020, as oportunidade de trabalho na área de vendas foram ficando
+              escassas naquele ano, e eu me encontrava desempregado, dai então
+              me venho a vontade de mudar de profissão, foi quando a Kenzie
+              Academy Brasil apareceu na minha vida, e foi a melhor coisa que já
+              me aconteceu, me apaixonei pela tecnologia, eu amo coda, eu me
+              sinto bem quando estou codando, e resolvi levar como plano de
+              vida, desenvolver tecnologia.
+              <br />
+              <br />
+              Na Kenzie Academy Brasil, eu ja desenvolvi mais de 40 projetos
+              entre front e back end, além de realizar projetos em equipe, isso
+              me fez desenvolver minhas habilidades em soft skills, e hoje me
+              sinto preparado para atuar na área de tecnologia.
+              <br />
+              <br />
+              <Text type="heading5">A empresa que me contratar hoje,</Text>não
+              vai contratar apenas mais um funcionário, vai contratar quem
+              resolve seus problemas, quem ajudar a equipe nas dificuldades do
+              dia a dia, quem faz a maquina girar, eu sou muito competitivo e
+              ambicioso, sempre quero ser o melhor, e se eu não for o melhor...
+              vou estar entre os melhores.
+              <br />
+              <br />
+              <Text type="heading5">Meu objetivo,</Text> é fazer da sua empresa,
+              minha empresa... e a transformar na maior referência de tecnologia
+              do país.
+            </Text>
+          </AboutMeText>
         </Container>
       </ProjectsArea>
     </main>

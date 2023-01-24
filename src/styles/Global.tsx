@@ -44,6 +44,9 @@ export const colors = {
     grey6: {
       color: "$grey6",
     },
+    green: {
+      color: "$green",
+    },
   },
 };
 
@@ -75,6 +78,7 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       grey6: "#DEE0FB",
       whiteFixed: "#ffffff",
       mode: "#ffffff",
+      green: "#40c057",
     },
     sizes: {
       container: "75rem",
@@ -95,6 +99,7 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       title4: "1.25rem",
       text1: "1rem",
       text2: "0.875rem",
+      text3: "1.125rem",
 
       // Mobile
       title1Mobile: "$title2",

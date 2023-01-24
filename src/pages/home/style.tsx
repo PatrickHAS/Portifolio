@@ -10,6 +10,7 @@ export const Header = styled("header", {
   backgroundImage: `url(${img})`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "bottom 1rem right 1rem",
+
   "@mobile": {
     padding: "9rem 0 6rem 0",
   },
@@ -25,6 +26,7 @@ export const HeaderContent = styled("div", {
 
 export const HeaderButtonsArea = styled(Flex, {
   marginTop: "$2",
+
   "@mobile": {
     flexDirection: "column",
     [`& ${Button}`]: {
@@ -42,14 +44,25 @@ export const StackCards = styled("div", {
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
   padding: "3rem 0",
-  gap: "2rem",
+  color: "$grey2",
 
+  gap: "2rem",
   "@mobile": {
     display: "flex",
     marginInline: "-1rem",
     paddingInline: "1rem",
     overflow: "auto",
   },
+});
+
+export const AboutMe = styled("div", {
+  width: "100%",
+  marginBottom: "1rem",
+});
+
+export const AboutMeText = styled("div", {
+  display: "felx",
+  width: "100%",
 });
 
 export const ProjectsArea = styled("section", {
@@ -75,6 +88,7 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
 export const ProjectsAreaContent = styled("div", {
   width: "60%",
   paddingLeft: "4rem",
+
   "@mobile": {
     width: "100%",
     paddingLeft: "0",
@@ -84,6 +98,8 @@ export const ProjectsAreaContent = styled("div", {
 export const ProjectAreaWrapperColumns = styled(Flex, {
   position: "relative",
   alignItems: "flex-start",
+  marginBottom: "4rem",
+
   "@mobile": {
     flexDirection: "column",
   },
