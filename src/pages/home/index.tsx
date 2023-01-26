@@ -151,7 +151,7 @@ export const Home = (): JSX.Element => {
               <br />
               <br />
               <Text type="heading5">Meu objetivo,</Text> é fazer da sua empresa,
-              minha empresa... e a transformar na maior referência de tecnologia
+              minha empresa... e transformá-la na maior referência de tecnologia
               do país.
             </Text>
           </AboutMeText>
