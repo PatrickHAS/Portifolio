@@ -150,9 +150,13 @@ export const Home = (): JSX.Element => {
               vou estar entre os melhores.
               <br />
               <br />
-              <Text type="heading5">Meu objetivo,</Text> é fazer da sua empresa,
-              minha empresa... e transformá-la na maior referência de tecnologia
-              do país.
+              <Text type="heading5">Meu objetivo</Text>
+              profissional é desenvolver minhas habilidades em tecnologia e
+              contribuir para o sucesso da empresa. Acredito que posso aplicar
+              minhas habilidades e conhecimentos adquiridos até o momento, e ao
+              mesmo tempo, aprender novas tecnologias e crescer ao lado da
+              equipe. Estou em busca de uma oportunidade onde posso
+              desenvolvê-lo.
             </Text>
           </AboutMeText>
         </Container>
