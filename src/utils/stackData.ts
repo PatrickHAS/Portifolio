@@ -5,7 +5,13 @@ import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaGithub, FaPython, FaVuejs } from "react-icons/fa";
-import { SiDjango, SiExpress, SiJest, SiTypescript } from "react-icons/si";
+import {
+  SiDjango,
+  SiExpress,
+  SiJest,
+  SiPostgresql,
+  SiTypescript,
+} from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 
 export const stackData = [
@@ -40,4 +46,5 @@ export const stackData = [
   { title: "Git", img: FaGithub },
   { title: "Express JS", img: SiExpress },
   { title: "Python", img: FaPython },
+  { title: "PostgreSQL", img: SiPostgresql },
 ];
