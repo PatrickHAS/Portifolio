@@ -129,13 +129,13 @@ export const Home = (): JSX.Element => {
               <br />
               <br />
               Eu trabalhava com vendas e devido a pandemia que se iniciou em
-              2020, as oportunidade de trabalho na área de vendas foram ficando
+              2020, as oportunidades de trabalho na área de vendas foram ficando
               escassas naquele ano, e eu me encontrava desempregado, dai então
               me venho a vontade de mudar de profissão, foi quando a Kenzie
               Academy Brasil apareceu na minha vida, e foi a melhor coisa que já
               me aconteceu, me apaixonei pela tecnologia, eu amo coda, eu me
               sinto bem quando estou codando, e resolvi levar como plano de
-              vida, desenvolver tecnologia.
+              vida, desenvolver tecnologias.
               <br />
               <br />
               Na Kenzie Academy Brasil, eu ja desenvolvi mais de 40 projetos
@@ -158,7 +158,7 @@ export const Home = (): JSX.Element => {
               minhas habilidades e conhecimentos adquiridos até o momento, e ao
               mesmo tempo, aprender novas tecnologias e crescer ao lado da
               equipe. Estou em busca de uma oportunidade onde posso
-              desenvolvê-lo.
+              desenvolvê-las.
             </Text>
           </AboutMeText>
         </Container>
