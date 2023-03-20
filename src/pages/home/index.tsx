@@ -146,7 +146,7 @@ export const Home = (): JSX.Element => {
               <br />
               <Text type="heading5">A empresa que me contratar hoje,</Text>não
               vai contratar apenas mais um funcionário, vai contratar quem
-              resolve seus problemas, quem ajudar a equipe nas dificuldades do
+              resolve seus problemas, quem ajuda a equipe nas dificuldades do
               dia a dia, quem faz a maquina girar, eu sou muito competitivo e
               ambicioso, sempre quero ser o melhor, e se eu não for o melhor...
               vou estar entre os melhores.
