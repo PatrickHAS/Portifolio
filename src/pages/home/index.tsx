@@ -157,7 +157,7 @@ export const Home = (): JSX.Element => {
               contribuir para o sucesso da empresa. Acredito que posso aplicar
               minhas habilidades e conhecimentos adquiridos até o momento, e ao
               mesmo tempo, aprender novas tecnologias e crescer ao lado da
-              equipe. Estou em busca de uma oportunidade onde posso
+              equipe. Estou em busca de uma oportunidade onde eu possa
               desenvolvê-las.
             </Text>
           </AboutMeText>
