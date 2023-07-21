@@ -122,7 +122,7 @@ export const Home = (): JSX.Element => {
               <Text as="span" color="brand1" type="heading5">
                 Patrick Santos
               </Text>{" "}
-              tenho {age} anos, bom... minha paixão pela tecnologia começou no
+              tenho 36 anos, bom... minha paixão pela tecnologia começou no
               final de 2021, quando um amigo me indicou um curso de RPA(robotic
               process automation), aqui foi meu primeiro contato com a
               tecnologia.

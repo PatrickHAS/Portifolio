@@ -22,7 +22,6 @@ interface ReposType {
 
 export const Project = (): JSX.Element => {
   const [repositories, setRepositories] = useState<ReposType[]>([]);
-  console.log(repositories);
 
   useEffect(() => {
     const fetchData = async () => {
