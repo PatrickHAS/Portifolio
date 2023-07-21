@@ -131,17 +131,23 @@ export const Home = (): JSX.Element => {
               Eu trabalhava com vendas e devido a pandemia que se iniciou em
               2020, as oportunidades de trabalho na área de vendas foram ficando
               escassas naquele ano, e eu me encontrava desempregado, dai então
-              me venho a vontade de mudar de profissão, foi quando a Kenzie
-              Academy Brasil apareceu na minha vida, e foi a melhor coisa que já
-              me aconteceu, me apaixonei pela tecnologia, eu amo coda, eu me
-              sinto bem quando estou codando, e resolvi levar como plano de
-              vida, desenvolver tecnologias.
+              me venho a vontade de mudar de profissão. Em março de 2022 iniciei
+              o curso de{" "}
+              <Text type="heading5">Desenvolvedor Web Full Stack</Text> na{" "}
+              <a href="https://kenzie.com.br/" title="Kenzie Academy site">
+                Kenzie Academy Brasil
+              </a>
+              , me apaixonei pela tecnologia, eu amo codar, eu me sinto bem
+              quando estou codando, e resolvi levar como plano de vida,
+              desenvolver tecnologias.
               <br />
               <br />
               Na Kenzie Academy Brasil, eu ja desenvolvi mais de 40 projetos
               entre front e back end, além de realizar projetos em equipe, isso
-              me fez desenvolver minhas habilidades em soft skills, e hoje me
-              sinto preparado para atuar na área de tecnologia.
+              me fez desenvolver minhas habilidades em Comunicação eficaz |
+              Trabalho em equipe | Pensamento crítico | Resolução de problemas |
+              Gerenciamento do tempo | Gestão de conflitos e capacidade de
+              receber feedback.
               <br />
               <br />
               <Text type="heading5">A empresa que me contratar hoje,</Text>não
