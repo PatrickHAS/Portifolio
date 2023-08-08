@@ -142,10 +142,10 @@ export const Home = (): JSX.Element => {
               desenvolver tecnologias.
               <br />
               <br />
-              Na Kenzie Academy Brasil, eu ja desenvolvi mais de 40 projetos
-              entre front e back end, além de realizar projetos em equipe, isso
-              me fez desenvolver minhas habilidades em Comunicação eficaz |
-              Trabalho em equipe | Pensamento crítico | Resolução de problemas |
+              Na Kenzie Academy Brasil, já desenvolvi mais de 40 projetos entre
+              front e back end, além de realizar projetos em equipe, isso me fez
+              desenvolver minhas habilidades em Comunicação eficaz | Trabalho em
+              equipe | Pensamento crítico | Resolução de problemas |
               Gerenciamento do tempo | Gestão de conflitos e capacidade de
               receber feedback.
               <br />
