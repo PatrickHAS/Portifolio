@@ -31,12 +31,12 @@ function getAge() {
   const month = date.getMonth();
   const day = date.getDate();
 
-  let age = 36;
+  let age = 37;
 
   if (month === 5 && day === 30) {
     age++;
   }
-  console.log(day);
+
   return age;
 }
 
